@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { SafPage } from '../saf/saf';
 
 /**
- * Generated class for the SocietyPage page.
+ * Generated class for the SafPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,25 +10,16 @@ import { SafPage } from '../saf/saf';
 
 @IonicPage()
 @Component({
-  selector: 'page-society',
-  templateUrl: 'society.html',
+  selector: 'page-saf',
+  templateUrl: 'saf.html',
 })
-export class SocietyPage {
-
+export class SafPage {
+  pet: string = "puppies";
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad SocietyPage');
+    console.log('ionViewDidLoad SafPage');
   }
-
-
-  goToSafPage(){
-    this.navCtrl.push(SafPage)
-
-
-  }
-
-
 
 }

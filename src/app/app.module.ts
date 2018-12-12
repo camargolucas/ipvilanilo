@@ -12,6 +12,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { OthersPage } from '../pages/others/others';
 import { SocietyPage } from '../pages/society/society';
+import { SafPage } from '../pages/saf/saf';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SocietyPage } from '../pages/society/society';
     HomePage,
     TabsPage,
     OthersPage,
-    SocietyPage
+    SocietyPage,
+    SafPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { SocietyPage } from '../pages/society/society';
     HomePage,
     TabsPage,
     OthersPage,
-    SocietyPage
+    SocietyPage,
+    SafPage
   ],
   providers: [
     StatusBar,
