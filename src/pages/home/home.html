@@ -1,9 +1,16 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Inicio</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  
+<ion-content class="page-home">
+  <ion-card class="ion-card">
+    <ion-slides pager="true" autoplay="3000" loop="true" speed="300">
+      <ion-slide *ngFor="let slide of arrSlides">
+        <ion-img class="image-size " src="{{slide.img}}"></ion-img>
+      </ion-slide>
+    </ion-slides>
+  </ion-card>
+
 </ion-content>

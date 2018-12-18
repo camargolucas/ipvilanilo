@@ -1,6 +1,14 @@
 page-home {
 
-   
+  .image-size{
+    height: 190px !important;
+    width: 300px !important;
+    align-items: center;
 
-
+  }
+  ion-card {
+    position: relative;
+    text-align: center;
+    margin-top: 60%;
+  }
 }
