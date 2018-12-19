@@ -6,9 +6,22 @@ page-home {
     align-items: center;
 
   }
-  ion-card {
+  .ion-card {
     position: relative;
     text-align: center;
-    margin-top: 60%;
+    margin-top: 15%;
+    margin-bottom: 20%;
   }
+  
+  .text-card{
+    margin-left: 20px;;
+    margin-block-start: 10px;
+    
+  }
+
+  .icon-card{
+    font-size: 25px;
+    color:#fffd68
+  }
+
 }
